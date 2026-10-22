@@ -46,6 +46,8 @@ xcodebuild test -project Asocial.xcodeproj -scheme Asocial -destination 'platfor
 
 ## TestFlight
 
+The App Store Connect record is **Asocial: Calm Social** (Apple ID 6825805406, SKU `com.djui.asocial`); plain "Asocial" was already taken as a store name. The home-screen name is still Asocial.
+
 `scripts/testflight.sh` archives Release and uploads it to App Store Connect with an App Store Connect API key (`TESTFLIGHT_KEY_ID`, `TESTFLIGHT_ISSUER_ID`, and the `.p8` in `~/.appstoreconnect/private_keys/`). The export signs with a cloud-managed distribution certificate and bumps the build number if it's taken.
 
 ```bash
