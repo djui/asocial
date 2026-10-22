@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16CE1099C1197C858ED72788 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DFB3DF256CA1A5F81B4CBC /* Platform.swift */; };
+		285014C67B0FA122DD544CAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B6862A7423DC48C19C58DB /* ContentView.swift */; };
+		6DE8B34950390F7D417DD11A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7248FE0288A3B3FBBE775878 /* Settings.swift */; };
+		6E0C4460187110288893EF1B /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7D7AD51691674F4BDD1B72 /* Browser.swift */; };
+		71525B42BE344348D64FBB55 /* asocial.js in Resources */ = {isa = PBXBuildFile; fileRef = 157BEED6BFDBA0BCE540B7CA /* asocial.js */; };
+		C5484808B6E2D9EEEB7B1B78 /* AsocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641EA63CD56F9C9EA6E9F18A /* AsocialTests.swift */; };
+		C90F31538876BD9F53885211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA673F14E879F0FE28EB3529 /* Assets.xcassets */; };
+		D3310A3915CFD2F4F8EFA5DE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A5FBC8D7DDF0C4377FECD5 /* SettingsView.swift */; };
+		EFEC67DE86449E1D71D4CDAA /* AsocialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64E700F683E9076AF5A8C5 /* AsocialApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D66CD4EF24EFAE8EBBD99EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 136E039B32E868DE7DB38728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047BD726DBEF77091D333D7C;
+			remoteInfo = Asocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B6862A7423DC48C19C58DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		157BEED6BFDBA0BCE540B7CA /* asocial.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = asocial.js; sourceTree = "<group>"; };
+		2C64E700F683E9076AF5A8C5 /* AsocialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsocialApp.swift; sourceTree = "<group>"; };
+		44CEDE65AC0858A3B99DB21C /* Asocial.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Asocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		641EA63CD56F9C9EA6E9F18A /* AsocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsocialTests.swift; sourceTree = "<group>"; };
+		69DFB3DF256CA1A5F81B4CBC /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		6E7D7AD51691674F4BDD1B72 /* Browser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
+		7248FE0288A3B3FBBE775878 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		A6A5FBC8D7DDF0C4377FECD5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AEF02882EE83D08C5EAFE193 /* AsocialTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AsocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA673F14E879F0FE28EB3529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		46E34052517F187434B915CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44CEDE65AC0858A3B99DB21C /* Asocial.app */,
+				AEF02882EE83D08C5EAFE193 /* AsocialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C8719A212D607C9A77D0E3 = {
+			isa = PBXGroup;
+			children = (
+				E2C8D58AADB5C9237112F856 /* Asocial */,
+				D09B2108534DCCA12964D28B /* AsocialTests */,
+				46E34052517F187434B915CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D09B2108534DCCA12964D28B /* AsocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				641EA63CD56F9C9EA6E9F18A /* AsocialTests.swift */,
+			);
+			path = AsocialTests;
+			sourceTree = "<group>";
+		};
+		D420EBD06FE65813C13FA6F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				157BEED6BFDBA0BCE540B7CA /* asocial.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E2C8D58AADB5C9237112F856 /* Asocial */ = {
+			isa = PBXGroup;
+			children = (
+				2C64E700F683E9076AF5A8C5 /* AsocialApp.swift */,
+				CA673F14E879F0FE28EB3529 /* Assets.xcassets */,
+				6E7D7AD51691674F4BDD1B72 /* Browser.swift */,
+				01B6862A7423DC48C19C58DB /* ContentView.swift */,
+				69DFB3DF256CA1A5F81B4CBC /* Platform.swift */,
+				7248FE0288A3B3FBBE775878 /* Settings.swift */,
+				A6A5FBC8D7DDF0C4377FECD5 /* SettingsView.swift */,
+				D420EBD06FE65813C13FA6F3 /* Resources */,
+			);
+			path = Asocial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047BD726DBEF77091D333D7C /* Asocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C002EC68FBCE9A8E0F0B53 /* Build configuration list for PBXNativeTarget "Asocial" */;
+			buildPhases = (
+				0613E8E27375D460509A6F6C /* Sources */,
+				3E2B0B3CC0863A2BFFD183E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asocial;
+			packageProductDependencies = (
+			);
+			productName = Asocial;
+			productReference = 44CEDE65AC0858A3B99DB21C /* Asocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BF023A847380BD34F937287 /* AsocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D039D5C1F8EC3A9D9DA53309 /* Build configuration list for PBXNativeTarget "AsocialTests" */;
+			buildPhases = (
+				0093CE256B40987A8C844BD7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0620BD71FEDC4ECDAD5DC8 /* PBXTargetDependency */,
+			);
+			name = AsocialTests;
+			packageProductDependencies = (
+			);
+			productName = AsocialTests;
+			productReference = AEF02882EE83D08C5EAFE193 /* AsocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		136E039B32E868DE7DB38728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					047BD726DBEF77091D333D7C = {
+						DevelopmentTeam = 8DR8DB9W22;
+						ProvisioningStyle = Automatic;
+					};
+					7BF023A847380BD34F937287 = {
+						DevelopmentTeam = 8DR8DB9W22;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 389EBE54AF01F88C03007BF7 /* Build configuration list for PBXProject "Asocial" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 92C8719A212D607C9A77D0E3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 46E34052517F187434B915CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047BD726DBEF77091D333D7C /* Asocial */,
+				7BF023A847380BD34F937287 /* AsocialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E2B0B3CC0863A2BFFD183E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90F31538876BD9F53885211 /* Assets.xcassets in Resources */,
+				71525B42BE344348D64FBB55 /* asocial.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0093CE256B40987A8C844BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5484808B6E2D9EEEB7B1B78 /* AsocialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0613E8E27375D460509A6F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEC67DE86449E1D71D4CDAA /* AsocialApp.swift in Sources */,
+				6E0C4460187110288893EF1B /* Browser.swift in Sources */,
+				285014C67B0FA122DD544CAD /* ContentView.swift in Sources */,
+				16CE1099C1197C858ED72788 /* Platform.swift in Sources */,
+				6DE8B34950390F7D417DD11A /* Settings.swift in Sources */,
+				D3310A3915CFD2F4F8EFA5DE /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0620BD71FEDC4ECDAD5DC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047BD726DBEF77091D333D7C /* Asocial */;
+			targetProxy = D66CD4EF24EFAE8EBBD99EDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0173E33A6F7A0FED60A8EB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djui.asocial.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asocial.app/Asocial";
+			};
+			name = Release;
+		};
+		031EFF5B36CF9F4C93FF1435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djui.asocial.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asocial.app/Asocial";
+			};
+			name = Debug;
+		};
+		1E31BD8DEB37BF7172116CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Asocial;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Lets you take a photo or video when you post or send a message.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Lets you record audio when you film a video to post or send.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djui.asocial;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38DE0B525E06937776EC255F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Asocial;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Lets you take a photo or video when you post or send a message.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Lets you record audio when you film a video to post or send.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djui.asocial;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B858870A0FE2ED62EA9FB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8DR8DB9W22;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D9CEC30FD71E08360A87BC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8DR8DB9W22;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		389EBE54AF01F88C03007BF7 /* Build configuration list for PBXProject "Asocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CEC30FD71E08360A87BC2E /* Debug */,
+				7B858870A0FE2ED62EA9FB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		57C002EC68FBCE9A8E0F0B53 /* Build configuration list for PBXNativeTarget "Asocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E31BD8DEB37BF7172116CA1 /* Debug */,
+				38DE0B525E06937776EC255F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D039D5C1F8EC3A9D9DA53309 /* Build configuration list for PBXNativeTarget "AsocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031EFF5B36CF9F4C93FF1435 /* Debug */,
+				0173E33A6F7A0FED60A8EB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 136E039B32E868DE7DB38728 /* Project object */;
+}
